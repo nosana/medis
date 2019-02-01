@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".menu"
+    tools:showIn="@layout/app_bar_menu">
+
+ <android.support.v7.widget.CardView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+ <android.support.v4.view.ViewPager
+     android:id="@+id/view1"
+     android:layout_marginLeft="16dp"
+     android:layout_marginRight="16dp"
+     android:layout_gravity="top"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+
+
+ </android.support.v4.view.ViewPager>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_marginBottom="90dp"
+         android:textSize="10dp"
+         android:textColor="@android:color/black"
+         android:text="pembaruan PERMENKES No.75 Tahun 2014 tentang puskesmas"/>
+
+ </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

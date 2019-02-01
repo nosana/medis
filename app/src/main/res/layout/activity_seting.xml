@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KODE BARANG"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9823456789" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA BARANG"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stetoskop" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BAHAN/MERK"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Onemed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FUNGSI"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="memeriksa suara dalam tubuh. Dia banyak
+digunakan untuk mendengar suara jantung
+dan pernapasan" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAHUN PEMBUATAN"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TANGGAL PENGADAAN"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9/12/2017" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUMLAH DATA"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KONDISI BARANG"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baik" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KETERANGAN"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bantuan Pemerintah dari APBD" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GAMBAR"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/biru"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/buku"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hati"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

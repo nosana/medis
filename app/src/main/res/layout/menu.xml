@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Tata Kelola Data Medis"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:columnCount="3"
+
+            android:rowCount="4">
+
+            <Button
+                android:id="@+id/a"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/suntikqr" />
+
+            <Button
+                android:id="@+id/b"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/babyqr" />
+
+            <Button
+                android:id="@+id/c"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/suntiktmbh" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:text="Scanner Alat"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:text="Scanner Imunisasi"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="Input Alat"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/d"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/babytmh" />
+
+            <Button
+                android:id="@+id/e"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/laporan" />
+
+            <Button
+                android:id="@+id/f"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/book" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:text="Scanner Alat"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_marginLeft="26dp"
+                android:gravity="center"
+                android:text="Scanner Imunisasi"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_marginLeft="35dp"
+                android:gravity="center"
+                android:text="Input Alat"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+
+
+        </GridLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
